@@ -24,7 +24,7 @@ body {
     /*Color White*/
     background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
-    box-shadow: 5px 10px 20px 20px rgba(0, 0, 0, .1);
+    box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, .05);
     margin-top: auto
 }
 img {
@@ -39,7 +39,7 @@ img {
     padding: 16px;
     text-align: center;
 }
-h2 {
+h1 {
     font-size: 1.43rem;
     font-weight: 700;
     /*Color Dark Blue*/
