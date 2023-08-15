@@ -1,7 +1,6 @@
 * {
 	/*Se usa para darle a todos los elementos este tipo de letra*/
     font-family: 'Outfit', sans-serif;
-
     margin: 0px;
     font-size: 15px;
     box-sizing: border-box;
@@ -10,9 +9,10 @@ body {
 	/*Color Light gray*/
     background-color: hsl(212, 45%, 89%);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 .container {
     width: 320px;
@@ -24,7 +24,8 @@ body {
     /*Color White*/
     background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
-    box-shadow: 5px 10px 20px 10px rgba(0, 0, 0, .07);
+    box-shadow: 5px 10px 20px 20px rgba(0, 0, 0, .1);
+    margin-top: auto
 }
 img {
     width: 288px;
@@ -50,6 +51,10 @@ p {
     color: hsl(220, 15%, 55%);
 }
 .attribution {
-    position: absolute;
-    bottom: 30px;
+    margin-top: auto;
+    font-size: 11px; 
+    text-align: center;
+}
+.attribution a {
+    color: hsl(180, 15%, 55%);
 }
